@@ -1,0 +1,422 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+body {
+    background-color: #eeeeee;
+}
+
+/*ESTILOS GENERALES */
+
+nav ul li {
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+nav ul li a {
+    color: white;
+}
+
+/* Header */
+
+header {
+    background-color: black;
+    width: 100%;
+}
+
+header a i {
+    color: white;
+    display: inline-block;
+    font-size: 45px;
+    line-height: 80px;
+    padding: 15px 30px;
+    font-weight: bold;
+}
+
+header {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+}
+
+header nav {
+    height: 80px;
+    float: right;
+}
+
+nav ul.menu {
+    float: right;
+}
+
+nav ul.menu li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0px 15px;
+}
+
+nav ul.menu li a {
+    color: #eee;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 7px 7px;
+}
+
+
+/* MENU */
+
+.checkbtn {
+    font-size: 35px;
+    color: black;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+
+#check {
+    display: none;
+ } 
+
+
+/* Main */
+
+.Titulos-visibles {
+    color: darkcyan;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+.seccion-1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 400px 30px 400px ; 
+    margin-top: 150px;
+    gap: 50px;
+    
+}
+
+.parrafo2 {
+    text-align: justify;
+    padding-top: 15px;
+}
+
+.acerca-imagen {
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+}
+
+.seccion-2 img {
+    width: 100%;
+    height: auto;
+}
+
+/* Servicios */
+
+.contenedor h2 {
+    padding-left: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.servicio-cont {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.servicio-ind {
+    width: 28%;
+    text-align: center;
+    padding-bottom: 65px;
+}
+
+.servicio-ind img {
+    width: 90%;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+}
+
+.servicio-ind h3 {
+    margin: 10px 0;
+}
+
+.servicio-ind p {
+    font-weight: 300;
+    text-align: justify;
+}
+
+/* FORMULARIO */
+
+#formulariopagina {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.form-header {
+    text-align: center;
+    background-color: #f6f7f8;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+  
+    width: 80%;
+    margin: 10px auto;
+    padding: 50px;
+}
+  
+.form-header h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+  
+  /* ------------- Formulario ------------- */
+  
+.formulario {
+    background-color: #f6f7f8;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+  
+    width: 80%;
+    padding: 50px;
+    margin: 30px 0 40px 0;
+}
+
+  /* ------------- Campos del Formulario ------------- */
+
+.form-row {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+  
+.form-row input[type="text"] {
+    background-color: #bdbdbd;
+    border: 0;
+    border-radius: 6px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+}
+  
+.form-row label {
+    margin-bottom: 3px;
+    text-align: initial;
+}
+
+.form-row input[type="text"],
+.form-row input[type="email"] {
+    background-color: #bdbdbd;
+    border: 0;
+    border-radius: 6px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+}
+
+.form-row textarea {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+  
+    background-color: #bdbdbd;
+    border: 0;
+    border-radius: 6px;
+  
+    min-height: 200px;
+    margin-bottom: 10px;
+    padding: 7px;
+    resize: none;
+
+    width: 100%;
+}
+
+.form-row button {
+    font-size: 16px;
+    font-weight: bold;
+  
+    color: #ffffff;
+    background-color: #5995da;
+  
+    border: none;
+    border-radius: 3px;
+  
+    padding: 10px 40px;
+    cursor: pointer;
+}
+  
+  
+.form-row button:hover {
+    background-color: #76aeed;
+}
+  
+  
+.form-row button:active {
+    background-color: #407fc7;
+}
+  
+
+/* Footer */
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 1em;
+}
+
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#footer a {
+    color: yellow;
+    font-size: 60px;
+    position: fixed;
+    bottom: 40px;
+    right: 60px;
+}
+
+/* Estilos para pantallas más pequeñas (hasta 768px) */
+/*@media (max-width: 768px) {*/
+    /* Aquí puedes escribir los estilos que se aplicarán en pantallas más pequeñas */
+  
+    /* MENU */
+
+    /*.checkbtn {
+        display: block;
+    } 
+
+    .menu {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: darkcyan;
+        text-align: center;
+        top: 80px;
+        left: 100%;
+        transition: all 0.5s;
+    }
+    
+    #check:checked ~ ul {
+        left: 0;
+        display: block;
+    }
+
+    .menu li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    .menu li a {
+        font-size: 20px;
+    }
+
+    #check:checked ~ .checkbtn {
+        color: darkcyan;
+    }
+}*/
+
+/* MENU */
+
+
+  
+  /* MEDIA QUERIES */
+  
+  /* Estilos para pantallas más pequeñas (hasta 768px) */
+  @media (max-width: 768px) {
+    /* Aquí puedes escribir los estilos que se aplicarán en pantallas más pequeñas */
+    
+    header {
+      background-color: darkcyan;
+    }
+  
+    .checkbtn {
+      display: block;
+    }
+  
+    .navbar {
+      height: 0vh;
+      position: absolute;
+      top: 80px;
+      left: 0;
+      width: 100%;
+      background: black;
+      text-align: center;
+      transition: all 0.5s;
+      overflow: hidden;
+    }
+  
+    .navbar ul.menu {
+      float: none;
+      display: block;
+      width: 174px;
+      margin: 0 auto;
+      opacity: 0;
+    }
+  
+    .navbar ul.menu li a:hover {
+      color: darkcyan;
+    }
+
+    /* ACTIVE */
+    .navbar.active {
+      height: 100vh;
+    }
+  
+    .navbar.active ul.menu {
+      opacity: 1;
+    }
+
+    /* SECCION PRINCIPAL */
+
+    .seccion-1 {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 0 35px 0 35px;
+    }
+
+  
+    /*FORMULARIO*/
+
+    .form-header {
+        padding: 50px;
+    }
+    
+      .form-row {
+        flex-direction: row;
+        align-items: flex-start;
+        margin-bottom: 20px;
+    }
+      .form-row input[type="text"] {
+        width: 250px;
+        height: initial;
+    }
+      .form-row label {
+        text-align: right;
+        width: 120px;
+        margin-top: 7px;
+        padding-right: 20px;
+    }
+  
+      .form-row textarea {
+          width: 250px;
+    }  
+  
+      .form-row button {
+          margin-left: 120px;
+    }
+    
+  }
